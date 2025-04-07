@@ -8,8 +8,7 @@ find_package(
 
   COMPONENTS
     unordered
-    bloom
 )
 
 add_executable("registry-test" main.cpp)
-target_link_libraries("registry-test" PRIVATE Boost::bloom Boost::unordered)
+target_link_libraries("registry-test" PRIVATE Boost::unordered)

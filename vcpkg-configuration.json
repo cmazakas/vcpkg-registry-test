@@ -1,10 +1,10 @@
 {
     "registries": [
         {
-            "baseline": "6b2804c553ff92cf0f5f21288ed3b2fbeba3131e",
+            "baseline": "4de164bf03af3acf61cd0ecccaa6a36b814f1baf",
             "kind": "git",
             "repository": "https://github.com/cmazakas/vcpkg-registry.git",
-            "packages": ["boost-bloom"]
+            "packages": ["boost*"]
         }
     ]
 }

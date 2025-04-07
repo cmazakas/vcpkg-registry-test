@@ -1,7 +1,7 @@
 {
-  "builtin-baseline": "c63619856b89f0af4d77ba2049396039e4985418",
+  "builtin-baseline": "856505bb767458c99d8e3c3ed441f59a058d3687",
   "dependencies": [
     "boost-unordered",
-    "boost-bloom"
+    "catch2"
   ]
 }
