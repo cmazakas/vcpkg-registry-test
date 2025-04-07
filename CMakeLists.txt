@@ -8,7 +8,8 @@ find_package(
 
   COMPONENTS
     unordered
+    hash2
 )
 
 add_executable("registry-test" main.cpp)
-target_link_libraries("registry-test" PRIVATE Boost::unordered)
+target_link_libraries("registry-test" PRIVATE Boost::unordered Boost::hash2)
