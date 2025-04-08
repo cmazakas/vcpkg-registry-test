@@ -1,7 +1,8 @@
 {
   "builtin-baseline": "856505bb767458c99d8e3c3ed441f59a058d3687",
   "dependencies": [
-    "boost-unordered",
-    "boost-hash2"
+    { "name": "boost-unordered", "version>=": "2025-04-07" },
+    { "name": "boost-hash2", "version>=": "2025-04-07" },
+    { "name": "boost-bloom", "version>=": "2025-04-07" }
   ]
 }
