@@ -2,8 +2,13 @@ cmake_minimum_required(VERSION 3.8...3.20)
 
 project(vcpkg_registry_test LANGUAGES CXX)
 
+if (CMAKE_CXX_STANDARD LESS "17")
+  message(FATAL_ERROR "C++17 is required to build these demos; current CMAKE_CXX_STANDARD is: ${CMAKE_CXX_STANDARD}")
+endif()
+
 find_package(
   Boost
+  CONFIG
   REQUIRED
 
   COMPONENTS
