@@ -1,7 +1,7 @@
 {
     "registries": [
         {
-            "baseline": "0b54ed8ba2a2080ed74e579917c41f9796711d7d",
+            "baseline": "8b73ea0efa0d35b4cdafaff4acc3545a71d81b64",
             "kind": "git",
             "repository": "https://github.com/cmazakas/vcpkg-registry.git",
             "packages": ["boost*"]

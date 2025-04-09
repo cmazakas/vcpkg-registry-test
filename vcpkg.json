@@ -3,6 +3,7 @@
   "dependencies": [
     { "name": "boost-unordered", "version>=": "2025-04-07" },
     { "name": "boost-hash2", "version>=": "2025-04-07" },
-    { "name": "boost-bloom", "version>=": "2025-04-07" }
+    { "name": "boost-bloom", "version>=": "2025-04-07" },
+    { "name": "boost-open-method", "version>=": "2025-04-07" }
   ]
 }
