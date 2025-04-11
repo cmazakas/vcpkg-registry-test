@@ -5,7 +5,10 @@ Make sure vcpkg is installed.
 Make a custom toolchain file similar to:
 ```cmake
 # toolchain.cmake
-cmake_policy(SET CMP0167 NEW) # for FindBoost.cmake deprecation warnings
+# set various flags here, etc.
+
+# make sure the vcpkg toolchain file is included in ours
+# this is what makes the vcpkg.json work
 include(/home/exbigboss/cpp/vcpkg/scripts/buildsystems/vcpkg.cmake)
 ```
 
